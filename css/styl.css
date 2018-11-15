@@ -1,0 +1,143 @@
+html{
+	/*background: url(../img/background.jpg);*/
+	background-color: #d9dddd;
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: Arial;
+}
+
+nav{
+	padding-bottom: 3%;
+}
+
+#general{
+	/*background-image: url(../img/background2.png);*/
+	background-color: #e2e2e2;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 2%;
+	width: 82%;	
+	border-radius: 1%;
+	display: line-block;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.menu{
+	position: fixed;
+	list-style: none;
+	margin-top: -2%;
+    margin-left: -2%;
+    padding: 0;
+    width: 103%;
+    background-color: #161616;
+    border: 3px solid #161616;
+    border-bottom: 5px solid #0ea8ce;
+    font-weight: bold;	
+}
+#logo{
+	margin-left:4%;
+	margin-right: 4%;
+	width: 15%;
+	height: 80%;
+}
+#logoimg{
+	margin: -4%;
+	padding: 0;
+}
+
+.menu li {
+	margin-top: 1.23%;
+	padding: 0;
+	display: inline-block;
+    width: 12%;
+    text-align: center;
+}
+
+.menu li a{
+	color: #FFF;
+	display: block;
+    padding: 10px 10px;
+    font-size: 130%;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: #262626;
+    color: #FFD999;
+}
+
+.active {
+    background-color: #1faf00;
+    color:  #f7c759;
+
+}
+
+#totop{
+	position: absolute; 
+	position: fixed;
+	height: 9%;
+  	top: 80%; 
+   	left: 95%; 
+}
+
+footer{
+	
+	height: 4%;
+	border: 2px solid black;
+    padding: 0%;
+    width: 100.9%;
+	background-color: #000000;
+	margin-left: -1%;
+	top: 96%;
+	position: fixed;
+}
+
+footer p {
+	position: fixed;
+	top: 94%;
+	left: 40%;
+	right: 40%;
+	color: white;
+	text-align: center;
+}
+
+#h1{
+	text-align: center;
+	font-size: 80px;
+	padding: 0;
+	margin: -1%;	
+}
+.art_conteiner{
+	display: inline-block;
+	width: 70%;	
+	padding: 1%;
+	vertical-align: top;
+
+}
+
+.img_r{
+	width: 25%;
+
+}
+
+article{
+	background-color: #ffffff;
+	margin: 1%;
+	border-radius: 5px;
+}
+.button{
+	margin-left: 90%;
+	width: 11%;
+	padding: 0.5%;
+	border-radius: 5px;
+	background-color: #262323;
+}
+
+.button a{
+	color: #FFF;
+	display: block;
+	padding: 1%;
+	text-align: center;
+	text-decoration: none;
+}
