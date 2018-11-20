@@ -18,11 +18,12 @@ nav{
 	background-color: #e2e2e2;
 	background-size: cover;
 	background-repeat: no-repeat;
-	padding: 2%;
+	padding: 20px;
 	width: 1366px;	
 	margin-left: auto;
     margin-right: auto;
 	border-radius: 10px;
+
 
 
 }
@@ -131,10 +132,57 @@ footer p {
 
 .img_r{
 	width: 25%;
+}
 
+#banner_r{
+	width: 1400px;
+  	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1%;
+    border-radius: 15px;
+}
+
+.menu_left{
+	list-style: none;
+	background-color: #FFF; 
+	width: 14%;
+	border: 2px solid #FFF;
+	border-radius: 7px;
+	display: inline-block;
+}
+#page_map{
+	padding-left: 10%;
+	font-size: 130%;
+	font-weight: bold;
+	margin-bottom: 7%;
+	text-decoration: underline;
+}
+
+.menu_left ul{
+	text-decoration: none;
+	padding-left: 13%;
+	list-style: none;
+}
+.menu_left ul li {
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.menu_left ul li a{
+	text-decoration: none;
+	font-size: 115%;
+}
+
+#articol{
+		display: inline-block;
+		width: 85%;
+		vertical-align: top;
+		margin-top: -0.8%;
 }
 
 article{
+	margin-left: 20%;
 	background-color: #ffffff;
 	margin: 1%;
 	border-radius: 5px;
