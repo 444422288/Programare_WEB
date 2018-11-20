@@ -1,7 +1,7 @@
 
 html{
 	/*background: url(../img/background.jpg);*/
-	background-color: #d9dddd;
+	background-color: #deecfc;
 	background-size: cover;
 	background-repeat: no-repeat;
 	font-family: Arial;
@@ -12,12 +12,20 @@ nav{
 	padding-bottom: 3%;
 }
 
+#first{
+	margin-top: -2%;
+	width: 1450px;
+	background-color: #FFF;
+	background-size: cover;
+	margin-left: auto;
+    margin-right: auto;
+}
+
 
 #general{
 	/*background-image: url(../img/background2.png);*/
-	background-color: #e2e2e2;
+	background-color: #c0e1ed;
 	background-size: cover;
-	background-repeat: no-repeat;
 	padding: 20px;
 	width: 1366px;	
 	margin-left: auto;
@@ -135,12 +143,13 @@ footer p {
 }
 
 #banner_r{
+	padding-top: 3%;
 	width: 1400px;
   	display: block;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1%;
-    border-radius: 15px;
+    
 }
 
 .menu_left{
