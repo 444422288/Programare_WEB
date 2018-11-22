@@ -160,6 +160,11 @@ footer p {
 	border-radius: 7px;
 	display: inline-block;
 }
+
+.menu_left li a:hover {
+    color: red;
+}
+
 #page_map{
 	padding-left: 10%;
 	font-size: 130%;
@@ -181,6 +186,7 @@ footer p {
 .menu_left ul li a{
 	text-decoration: none;
 	font-size: 115%;
+	color: black;
 }
 
 #articol{
