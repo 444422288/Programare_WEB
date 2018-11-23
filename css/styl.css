@@ -11,7 +11,9 @@ nav{
 
 #first{
 	margin-top: -2%;
-	width: 1450px;
+	min-width: 40%;
+	max-width: 100%;
+	width: auto;
 	background-color: #FFF;
 	background-size: cover;
 	margin-left: auto;
@@ -21,8 +23,11 @@ nav{
 #general{
 	background-color: #c0e1ed;
 	background-size: cover;
+	margin: 10px;
 	padding: 20px;
-	width: 1366px;	
+	min-width: 40%;
+	max-width: 1600px;
+	width: auto;	
 	margin-left: auto;
     margin-right: auto;
 	border-radius: 10px;
@@ -41,7 +46,9 @@ nav{
 }
 
 .menu2{
-	width: 1366px;
+	min-width: 40%;
+	max-width: 1500px;
+	width: auto;
 	margin-right: auto;
 	margin-left: auto;
 	list-style: none;
@@ -66,16 +73,18 @@ nav{
 	margin-top: 1.23%;
 	padding: 0;
 	display: inline-block;
-    width: 12%;
+	max-width: 15%;
+	min-width: 12%;
+    width: auto;
     text-align: center;
 }
 
 .menu li a{
 	color: #FFF;
 	display: block;
-    padding: 10px 10px;
-    font-size: 130%;
-    text-decoration: none;
+	padding: 4% 4%;
+	font-size: 125%;
+	text-decoration: none;
 }
 
 .menu li a:hover {
@@ -86,6 +95,7 @@ nav{
 .active {
     background-color: #1faf00;
     color:  #f7c759;
+    text-decoration:underline;
 }
 
 #totop{
@@ -97,18 +107,20 @@ nav{
 }
 
 footer{
-	height: 3%;
+	height: 4%;
 	border: 2px solid black;
     padding: 0%;
     width: 100.9%;
 	background-color: #000000;
 	margin-left: -1%;
-	top: 97%;
+	top: 96%;
 	position: fixed;
 }
 
 footer p {
-	margin-top: 3.5px;
+
+	margin-top: auto;
+	margin-bottom: auto;
 	color: white;
 	text-align: center;
 }
@@ -132,12 +144,15 @@ footer p {
 }
 
 #banner_r{
-	padding-top: 3%;
-	width: 1400px;
+	margin-top: 1%;
+	min-width: 20%;
+	max-width: 100%;
+	width: auto;
   	display: block;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1%;
+    border-radius: 7px;
 }
 
 .menu_left{
@@ -190,6 +205,10 @@ article{
 	background-color: #ffffff;
 	margin: 1%;
 	border-radius: 5px;
+}
+
+section{
+	margin-right: -1.5%;
 }
 
 .button{
