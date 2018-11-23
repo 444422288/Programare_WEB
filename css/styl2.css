@@ -1,7 +1,7 @@
 #articol{
-		width: 83%;
-		margin-left: 2%;
-		font-size: 140%;
+		width: 70vw;
+		margin-left: 2vw;
+		font-size: 1.3vw;
 }
 
 .menu_left ul li {
@@ -9,14 +9,14 @@
 }
 
 #articol h1{
-	font-size: 160%;
+	font-size: 2.2vw;
 	text-align: center;
 }
 
 #articol img{
 	display: block;
 	margin: auto;
-	width: 55%;
+	width: 45vw;
 }
 
 #articol h2,
@@ -31,5 +31,7 @@
 #video{
 	display: block;
 	margin: auto;
-	margin-bottom: 2%;
+	margin-bottom: 2vh;
+	width:85vw;
+	height:103vh;
 }

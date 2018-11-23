@@ -1,0 +1,121 @@
+html{
+	position: absolute;
+	margin-top: -4.2vh;
+}
+
+#first{
+	margin-top: -2vh;
+	width: 98vw;
+	background-color: #FFF;
+	background-size: cover;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+
+.menu{
+	position: absolute;
+	position: fixed;
+	margin-top: 0vh;
+    margin-left: -5vw;
+    padding: 0;
+    width: 103vw;
+    background-color: #161616;
+    border: 0.5vh solid #161616;
+    border-bottom: 1vh solid #0ea8ce;
+    font-weight: bold;	
+
+}
+
+.menu2{
+	/*min-width: 40%;
+	max-width: 1500px;*/
+	width: 103vw;
+	margin-right: auto;
+	margin-left: auto;
+	list-style: none;
+    padding: 0;
+    font-weight: bold;	
+    margin-bottom: 0;
+
+}
+
+#logo{
+	margin-left:5vw;
+	margin-right: 0.7vw;
+	width: 15vw;
+	height: 7vh;
+}
+
+#logoimg{
+	margin: -0.8vh;
+	padding: 0;
+	width: 15vw;
+	height: 5vh;
+}
+
+.menu li {
+	margin-top: 2vh;
+	padding: 0;
+	display: inline-block;
+    width: 13vw;
+    text-align: center;
+
+}
+
+.menu li a{
+	color: #FFF;
+	display: block;
+	padding: 1.5vh 0.5vw;
+	font-size: 1.5vw;
+	text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: #262626;
+    color: #FFD999;
+}
+
+.active {
+    background-color: #1faf00;
+    color:  #f7c759;
+    text-decoration:underline;
+}
+
+#totop{
+	position: absolute; 
+	position: fixed;
+	height: 7%;
+  	top: 80%; 
+   	left: 95%; 
+}
+
+footer{
+	height: 4vh;
+	border: 2px solid black;
+    padding: 0;
+    width: 100vw;
+	background-color: #000000;
+	margin-left: -1vw;
+	top: 96vh;
+	position: fixed;
+}
+
+footer p {
+	font-size: 2vh;
+	margin-top: auto;
+	margin-bottom: auto;
+	color: white;
+	text-align: center;
+}
+
+
+#banner_r{
+	margin-top: 12vh;
+	width: 87vw;
+  	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1vh;
+    border-radius: 7px;
+}
