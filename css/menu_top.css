@@ -24,12 +24,21 @@ html{
     border: 0.5vh solid #161616;
     border-bottom: 1vh solid #0ea8ce;
     font-weight: bold;	
-
 }
 
+
+.dropbtn{
+	background-color: #161616;
+	border:0.001px solid #161616;
+	display: inline-block;
+}
+
+.dropdown-content{
+	display: inline-block;
+}
+
+
 .menu2{
-	/*min-width: 40%;
-	max-width: 1500px;*/
 	width: 103vw;
 	margin-right: auto;
 	margin-left: auto;
@@ -45,17 +54,21 @@ html{
 	margin-right: 0.7vw;
 	width: 15vw;
 	height: 7vh;
+	display: inline-block;
 }
 
 #logoimg{
-	margin: -0.8vh;
+	margin-bottom: -0.1vh;
+	margin: -0.7vh;
+	margin-bottom: -1.5vh;
 	padding: 0;
-	width: 15vw;
-	height: 5vh;
+	width: 14vw;
+	height: 4.5vh;
+	display: inline-block;
 }
 
 .menu li {
-	margin-top: 2vh;
+	margin-top: 2.3vh;
 	padding: 0;
 	display: inline-block;
     width: 13vw;

@@ -1,0 +1,67 @@
+@media screen and (max-width: 970px){
+	.menu li a{
+		display: inline-block;
+		padding: 1.5vh 0.5vw;
+		font-size: 1.5vw;
+		text-decoration: none;
+
+	}
+
+	.dropbtn {
+		background-color: black;
+	  border: none;
+	  cursor: pointer;
+	  margin-right: auto;
+	  margin-left: auto;
+	}
+
+	.menu2 {
+	  position: relative;
+	  display: block;
+	}
+
+	.menu2 li {
+		margin-right: auto;
+	  	margin-left: auto;
+	    display: block;
+	}
+
+	.dropdown-content {
+	color: white;
+	display: none;
+	position: absolute;
+	background-color: black;
+	min-width: 200px;
+	}
+
+	.dropdown-content li a {
+	  color: white;
+	  padding: 1.5vh 0.5vw;
+	  text-decoration: none;
+	  display: block;
+	  font-size: 2vw;
+	  width: 15vw;
+	text-align: left;
+
+	}
+
+	.dropdown-content a:hover {
+		background-color: black;
+		text-align: center;
+	}
+
+	.menu2:hover .dropdown-content {
+	  display: block;
+	  text-align: center;
+	}
+
+	.menu2:hover .dropbtn {
+	  background-color: black;
+	  margin-left: 20px;
+	}
+
+	#logoimg{
+		margin-bottom: -3vh;
+	}
+
+}
